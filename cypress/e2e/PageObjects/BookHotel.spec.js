@@ -24,7 +24,7 @@ class BookHotel {
         month.select(value)
     }
     expiryYear() {
-        return cy.get('#cc_exp_year')
+        return cy.get('[id=cc_exp_year]')
     }
     cvvNumber(value) {
         let cvvNo = cy.get('#cc_cvv')

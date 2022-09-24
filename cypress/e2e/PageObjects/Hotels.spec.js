@@ -17,10 +17,12 @@ class Hotels {
         nRoom.select(value)
     }
     checkInDate(value) {
+        cy.get('#datepick_in').clear()
         let cDate = cy.get('#datepick_in')
         cDate.type(value)
     }
     checkOutDate(value) {
+        cy.get('#datepick_out').clear()
         let coDate = cy.get('#datepick_out')
         coDate.type(value)
     }
