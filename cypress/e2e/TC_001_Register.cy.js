@@ -17,13 +17,14 @@ for (let i = 0; i == 0; i++) {
                 r.password().type(data.rows[i].password)
                 r.confirmPassword().type(data.rows[i].password)
                 r.fullName().type(data.rows[i].username)
+                r.emailAddress().type(data.rows[i].Email_Address)
             })
         })
         Then('User clicks check box', () => {
             r.agreeCheckbox().check()
         })
         Then('User clicks Register Button', () => {
-            r.registerBtn().click()
+           // r.registerBtn().click()
         })
 
 
