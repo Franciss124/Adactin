@@ -3,30 +3,29 @@ const createBundler = require("@bahmutov/cypress-esbuild-preprocessor");
 const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
 const createEsbuildPlugin = require("@badeball/cypress-cucumber-preprocessor/esbuild");
 
-const xlsx = require('node-xlsx').default; 
+const xlsx = require('node-xlsx').default;
 const fs = require('fs'); // for file
 const path = require('path'); // for file path
 const readXlsx = require('./cypress/support/read-xlsx')
 
 async function setupNodeEvents(on, config) {
 
-  on('task', { parseXlsx({ filePath }) 
-  { return new Promise((resolve, reject) =>
-    { try 
-     {
-        const jsonData = xlsx.parse(fs.readFileSync(filePath)); 
-        resolve(jsonData);
-        } catch (e) 
-        {
-           reject(e);
-        } });
-      }}); 
-     
-      on('task', {
-       'readXlsx': readXlsx.read
-     })
-     
+  on('task', {
+    parseXlsx({ filePath }) {
+      return new Promise((resolve, reject) => {
+        try {
+          const jsonData = xlsx.parse(fs.readFileSync(filePath));
+          resolve(jsonData);
+        } catch (e) {
+          reject(e);
+        }
+      });
+    }
+  });
 
+  on('task', {
+    'readXlsx': readXlsx.read
+  })
   await preprocessor.addCucumberPreprocessorPlugin(on, config);
 
   on(
@@ -41,7 +40,7 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
- 
+
   reporter: 'mochawesome',
   reporterOptions: {
     reportDir: 'mochawesome-report',
@@ -55,9 +54,6 @@ module.exports = defineConfig({
     toConsole: true,
     overwrite: false
   },
-
-
-  
 
   e2e: {
     specPattern: "**/*.feature",

@@ -14,7 +14,7 @@
             "line": 5,
             "name": "User launch the Adactin Web Application",
             "result": {
-              "duration": 15390000000,
+              "duration": 11327000000,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
             "line": 6,
             "name": "User verify the Adactin Home page displayed",
             "result": {
-              "duration": 22000000,
+              "duration": 31000000,
               "status": "passed"
             },
             "match": {
@@ -38,7 +38,7 @@
             "line": 7,
             "name": "Start to type your When step here User enter the valid Username and valid password",
             "result": {
-              "duration": 701000000,
+              "duration": 720000000,
               "status": "passed"
             },
             "match": {
@@ -50,7 +50,7 @@
             "line": 8,
             "name": "User clicks login Button",
             "result": {
-              "duration": 1648000000,
+              "duration": 2367000000,
               "status": "passed"
             },
             "match": {
@@ -62,7 +62,7 @@
             "line": 9,
             "name": "User verify the searh Hotel Home page displayed",
             "result": {
-              "duration": 24000000,
+              "duration": 29000000,
               "status": "passed"
             },
             "match": {
@@ -74,7 +74,7 @@
             "line": 10,
             "name": "User select the valid Hotel Location,Hotel Name,Room Type,Rooms,Check in date, Checkout Date,Adults Room",
             "result": {
-              "duration": 1946000000,
+              "duration": 1972000000,
               "status": "passed"
             },
             "match": {
@@ -86,7 +86,7 @@
             "line": 11,
             "name": "User clicks Search Button",
             "result": {
-              "duration": 787000000,
+              "duration": 1367000000,
               "status": "passed"
             },
             "match": {
@@ -98,7 +98,7 @@
             "line": 12,
             "name": "User verify the select Hotel Home page displayed",
             "result": {
-              "duration": 28000000,
+              "duration": 32000000,
               "status": "passed"
             },
             "match": {
@@ -110,7 +110,7 @@
             "line": 13,
             "name": "User clicks the radio Button",
             "result": {
-              "duration": 178000000,
+              "duration": 158000000,
               "status": "passed"
             },
             "match": {
@@ -122,7 +122,7 @@
             "line": 14,
             "name": "User Clicks Continue Button",
             "result": {
-              "duration": 1532000000,
+              "duration": 797000000,
               "status": "passed"
             },
             "match": {
@@ -134,7 +134,7 @@
             "line": 15,
             "name": "User verify the Book A Hotel Home page displayed",
             "result": {
-              "duration": 63000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "match": {
@@ -146,7 +146,7 @@
             "line": 16,
             "name": "User enters First name,Last Name,Billing Address,Credit Card No,Credit Card Type,Expiry Month,Expiry Year,CVV Number",
             "result": {
-              "duration": 2012000000,
+              "duration": 2082000000,
               "status": "passed"
             },
             "match": {
@@ -158,7 +158,7 @@
             "line": 17,
             "name": "User Clicks the Book Now Button",
             "result": {
-              "duration": 8170000000,
+              "duration": 8146000000,
               "status": "passed"
             },
             "match": {
@@ -170,7 +170,7 @@
             "line": 18,
             "name": "User verifythe Booking order ID",
             "result": {
-              "duration": 49000000,
+              "duration": 73000000,
               "status": "passed"
             },
             "match": {
@@ -202,7 +202,7 @@
             "line": 5,
             "name": "User launch the Adactin webpage",
             "result": {
-              "duration": 17497000000,
+              "duration": 3262000000,
               "status": "passed"
             },
             "match": {
@@ -214,7 +214,7 @@
             "line": 6,
             "name": "User enters valid Username and valid password",
             "result": {
-              "duration": 693000000,
+              "duration": 718000000,
               "status": "passed"
             },
             "match": {
@@ -226,7 +226,7 @@
             "line": 7,
             "name": "User clicks Login button",
             "result": {
-              "duration": 2373000000,
+              "duration": 1000000000,
               "status": "passed"
             },
             "match": {
@@ -238,7 +238,7 @@
             "line": 8,
             "name": "User navigate to Booked iteration page",
             "result": {
-              "duration": 1934000000,
+              "duration": 789000000,
               "status": "passed"
             },
             "match": {
@@ -250,7 +250,7 @@
             "line": 9,
             "name": "User verifying the cancelation page",
             "result": {
-              "duration": 30000000,
+              "duration": 33000000,
               "status": "passed"
             },
             "match": {
@@ -262,7 +262,7 @@
             "line": 10,
             "name": "User deselect all booked",
             "result": {
-              "duration": 145000000,
+              "duration": 144000000,
               "status": "passed"
             },
             "match": {
@@ -274,7 +274,7 @@
             "line": 11,
             "name": "User clicks cancel booked",
             "result": {
-              "duration": 894000000,
+              "duration": 816000000,
               "status": "passed"
             },
             "match": {
@@ -306,7 +306,7 @@
             "line": 5,
             "name": "User launch the Adactin webpage",
             "result": {
-              "duration": 11399000000,
+              "duration": 2865000000,
               "status": "passed"
             },
             "match": {
@@ -318,7 +318,7 @@
             "line": 6,
             "name": "User enters valid Username and valid password",
             "result": {
-              "duration": 731000000,
+              "duration": 735000000,
               "status": "passed"
             },
             "match": {
@@ -330,7 +330,7 @@
             "line": 7,
             "name": "User clicks Login button",
             "result": {
-              "duration": 3451000000,
+              "duration": 1038000000,
               "status": "passed"
             },
             "match": {
@@ -342,7 +342,7 @@
             "line": 8,
             "name": "User able to Adactin Homepage",
             "result": {
-              "duration": 28000000,
+              "duration": 21000000,
               "status": "passed"
             },
             "match": {
@@ -358,85 +358,5 @@
     "line": 2,
     "name": "Login",
     "uri": "cypress\\e2e\\Features\\Login.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
-        "id": "new-user-register;register-a-new-user-in-adactin-webpage",
-        "keyword": "Scenario",
-        "line": 3,
-        "name": "Register a new User in Adactin Webpage",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "line": 4,
-            "name": "User launches the Adactin webpage",
-            "result": {
-              "duration": 9549000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "When ",
-            "line": 5,
-            "name": "User clicks New User Register Here option",
-            "result": {
-              "duration": 2126000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "And ",
-            "line": 6,
-            "name": "User enters Username,Password,Confirm Password,Full Name,Email Address",
-            "result": {
-              "duration": 1666000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "Then ",
-            "line": 7,
-            "name": "User clicks check box",
-            "result": {
-              "duration": 128000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          },
-          {
-            "keyword": "Then ",
-            "line": 8,
-            "name": "User clicks Register Button",
-            "result": {
-              "duration": 15000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "not available:0"
-            }
-          }
-        ],
-        "type": "scenario"
-      }
-    ],
-    "id": "new-user-register",
-    "keyword": "Feature",
-    "line": 1,
-    "name": "New User Register",
-    "uri": "cypress\\e2e\\Features\\Register.feature"
   }
 ]
