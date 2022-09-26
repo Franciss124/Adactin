@@ -19,7 +19,6 @@ describe('Login', () => {
   })
   And('User clicks Login button', () => {
     lp.loginButton()
-
   })
   Then('User able to Adactin Homepage', () => {
     cy.title().should('eq', 'Adactin.com - Search Hotel')

@@ -10,8 +10,8 @@ describe('Canceling bookings', () => {
     When('User navigate to Booked iteration page', () => {
         c.bIteration()
     })
-    And('User verifying the cancelation page',()=>{
-cy.title().should('eq','Adactin.com - Select Hotel')        
+    And('User verifying the cancelation page', () => {
+        cy.title().should('eq', 'Adactin.com - Select Hotel')
     })
     And('User deselect all booked', () => {
         c.checkBtn().check()
