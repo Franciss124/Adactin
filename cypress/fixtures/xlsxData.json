@@ -19,7 +19,9 @@
       "Expiry_Month": "May",
       "Expiry_Year": 2022,
       "Cvv_Number": 111,
-      "Email_Address": "Francis@gmail.com"
+      "Email_Address": "Francis@gmail.com",
+      "Invalid_username": "Francis2525",
+      "Invalid_password": "Francis*123"
     }
   ]
 }

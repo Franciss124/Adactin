@@ -28,7 +28,7 @@ describe('Login', () => {
 describe('', () => {
 
   When('User enters invalid Username and valid password', () => {
-    lp.userName('Francis3535')
+    lp.userName(data.rows[i].username)
     lp.password('Francis*123')
   })
   Then('User unable to Adactin Homepage', () => {
