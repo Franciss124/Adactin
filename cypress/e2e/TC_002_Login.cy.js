@@ -41,6 +41,7 @@ describe('', () => {
   When('User enters invalid Username and invalid password', () => {
     lp.userName('Francis3535')
     lp.password('Francis*123')
+    //lp.password('Francis*123')
   })
 
 })
