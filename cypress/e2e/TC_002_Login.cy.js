@@ -25,3 +25,22 @@ describe('Login', () => {
   })
 
 })
+describe('', () => {
+
+  When('User enters invalid Username and valid password', () => {
+    lp.userName('Francis3535')
+    lp.password('Francis*123')
+  })
+  Then('User unable to Adactin Homepage', () => {
+    cy.title().should('eq', 'Adactin.com - Search Hotel')
+  })
+  When('User enters valid Username and invalid password', () => {
+    lp.userName('Francis3535')
+    lp.password('Francis*123')
+  })
+  When('User enters invalid Username and invalid password', () => {
+    lp.userName('Francis3535')
+    lp.password('Francis*123')
+  })
+
+})
